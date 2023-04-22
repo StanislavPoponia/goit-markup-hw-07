@@ -127,23 +127,39 @@ position: relative;
   color: #404bbf;
 }
 
-.menu{ gap: 40px;
+
+.menu{ margin-left: 76px;
+   gap: 40px;
   display: flex;
   align-items: center;}
 .menu li:last-child{ margin-right: 0;}
+
+@media only screen and ( max-width: 768px ){
+  .menu{
+    display: none;}}
+
+@media only screen and ( max-width: 768px ){
+  .address{
+    display: none; }}
 
 
 /* address info */
 .address{ 
   font-style: normal;
-  margin-left: auto;
-}
+  margin-left: auto;}
 
 .address-info{
   gap: 40px;
-  display: flex;
-  
-}
+  display: flex;}
+
+
+  @media only screen and ( min-width: 768px ) and ( max-width: 1157px ) {
+    .address-info{
+      display: block;
+
+      
+    }
+  }
 
 .info{
   text-decoration: none;
@@ -157,7 +173,25 @@ transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: linear; }
 
-.tel{ margin-right: 0;}
+@media only screen and ( min-width: 768px ) and ( max-width: 1157px ){
+  .info{
+   
+    font-size: 12px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;}} 
+
+
+
+     @media only screen and ( min-width: 768px ) and ( max-width: 1157px ){
+     .text-info{
+     margin-bottom: 12px;}}
+
+     .address-info li:last-child{ margin-bottom: 0;}
+
+
+
+
+      .tel{ margin-right: 0;}
 
 
 .info:hover,
@@ -181,7 +215,7 @@ transition-timing-function: linear; }
 .effective{
   max-width: 1440px;
   margin: 0 auto;
-  padding: 188px 0;
+  padding: 112px 0;
   text-align: center;
   background: #2E2F42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/fons.jpg);
@@ -192,15 +226,32 @@ transition-timing-function: linear; }
 
 .name-effective{
   margin: auto;
-  max-width: 496px;
-  margin-top: 0;
 margin-bottom: 48px;
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
+
 color: #FFFFFF;
+ max-width: 320px;
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
+
+@media only screen and ( min-width: 768px ){
+  .name-effective{
+    min-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }}
+
+  @media only screen and ( min-width: 1158px ){
+    .effective{
+      padding: 188px 0;
+    }
+  }
+
+
+
 
 /* button first */
 
@@ -718,11 +769,6 @@ color: #F4F4FD; }
 margin-right: 80px;
   }
 }
-
-
-
-
-
 
 
 .logo-footer{
