@@ -238,11 +238,55 @@ stroke: #2E2F42;}
   padding: 112px 0;
   text-align: center;
   background: #2E2F42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/fons.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../retina_background/Dark-bg_mob@1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
+@media only screen and ( min-width: 768px ){
+  .effective{
+    background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../retina_background/Dark-bgtab@1x.jpg); }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+      .effective{ background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../retina_background/Dark-bgtab@2x.jpg);
+    }
+
+}
+}
+  
+
+@media only screen and ( min-width: 1158px ){
+  .effective{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../retina_background/people-office\ 1comp@1x.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx){
+    .effective{ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../retina_background/people-office\ 1comp@2x.jpg);
+
+    }
+  }
+
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx){
+    .effective{ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../retina_background/Dark-bg_mob@2x.jpg);
+     }
+  
+  
+    }
+
+
+    
+
+
+
 
 .name-effective{
   margin: auto;
@@ -973,6 +1017,10 @@ min-height: 576px;
 padding: 24px 24px;
 background-color: #FCFCFC;}
 
+
+
+
+
 .button-backdrop{
   display: flex;
   justify-content: center;
@@ -1011,6 +1059,13 @@ background-color: #FCFCFC;}
     .modal-slide{ 
       position: relative;
       margin-bottom: 8px;}
+
+      @media only screen and ( max-width: 428px ){
+        .modal{
+          min-width: 392px;
+
+        }
+      }
 
 .label{display: block;
 margin-bottom: 4px;
@@ -1141,6 +1196,12 @@ cursor: pointer;}
                   border : 1px solid #E7E9FC;
                 }
 
+                .js-open-menu{
+                  padding:  24px 0 ;
+                }
+
+
+
              
 
                 
@@ -1174,14 +1235,13 @@ cursor: pointer;}
 
                 .mobile-menu-burger .link {
                   display: block;
-                  padding: 10px;
                   text-decoration: none; }
 
+                  .burger-item{
+                    margin-top: 40px;}
 
-
-
-
-                .item-burger{
+                  .item-burger{
+                  margin-bottom: 4opx;
                   font-weight: 700;
                   font-size: 36px;
                   line-height: 40px;
@@ -1194,6 +1254,12 @@ cursor: pointer;}
                   .footer-social{
                     gap: 56px;
                     justify-content: flex-start; } }
+
+                    .current-burger{
+                      position: relative;
+                      color: #404BBF;
+                    }
+                    
             
 
 

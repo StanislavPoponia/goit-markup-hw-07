@@ -168,11 +168,32 @@
           <h2 class="our-team">Our Team</h2>
           <ul class="all-team list">
             <li class="name-team">
-              <img
-                src="./images/1man.jpg"
-                alt="a man with a beard"
-                width="264"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1158px )"
+                  srcset="
+                    ./retina_man1/img_comp@1x.jpg 1x,
+                    ./retina_man1/img_comp@2x.jpg 2x
+                  " />
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./retina_man1/img_tab@1x.jpg 1x,
+                    ./retina_man1/img_tab@2x.jpg 2x
+                  " />
+                <source
+                  media="(max-width: 767px )"
+                  srcset="
+                    ./retina_man1/img_mob@1x.jpg 1x,
+                    ./retina_man1/img_mob@2x.jpg 2x
+                  " />
+
+                <img
+                  src="./retina_man1/img_comp@1x.jpg"
+                  alt="a man with a beard"
+                  width="264"
+              /></picture>
+
               <div class="information">
                 <h3 class="name-person">Mark Guerrero</h3>
                 <p class="position">Product Designer</p>
@@ -229,7 +250,31 @@
               </div>
             </li>
             <li class="name-team">
-              <img src="./images/2man.jpg" alt="young guy" width="264" />
+              <picture>
+                <source
+                  media="(min-width: 1158px )"
+                  srcset="
+                    ./retina_man2/img_comp@1x.jpg 1x,
+                    ./retina_man2/img_comp@2x.jpg 2x
+                  " />
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./retina_man2/img_tab@1x.jpg 1x,
+                    ./retina_man2/img_tab@2x.jpg 2x
+                  " />
+                <source
+                  media="(max-width: 767px )"
+                  srcset="
+                    ./retina_man2/img_mob@1x.jpg 1x,
+                    ./retina_man2/img_mob@2x.jpg 2x
+                  " />
+                <img
+                  src="./retina_man2/img_comp@1x.jpg"
+                  alt="young guy"
+                  width="264"
+              /></picture>
+
               <div class="information">
                 <h3 class="name-person">Tom Ford</h3>
                 <p class="position">Frontend Developer</p>
@@ -286,7 +331,31 @@
               </div>
             </li>
             <li class="name-team">
-              <img src="./images/3girl.jpg" alt="pretty girl" width="264" />
+              <picture>
+                <source
+                  media="(min-width: 1158px )"
+                  srcset="
+                    ./retina_girl3/img_comp@1x.jpg 1x,
+                    ./retina_girl3/img_comp@2x.jpg 2x
+                  " />
+                <source
+                  media="(min-width:768px )"
+                  srcset="
+                    ./retina_girl3/img_tab@1x.jpg 1x,
+                    ./retina_girl3/img_tab@2x.jpg 2x
+                  " />
+                <source
+                  media="(max-width: 767px )"
+                  srcset="
+                    ./retina_girl3/img_mob@1x.jpg 1x,
+                    ./retina_girl3/img_mob@2x.jpg 2x
+                  " />
+                <img
+                  src="./retina_girl3/img_comp@1x.jpg"
+                  alt="pretty girl"
+                  width="264"
+              /></picture>
+
               <div class="information">
                 <h3 class="name-person">Camila Garcia</h3>
                 <p class="position">Marketing</p>
@@ -343,7 +412,31 @@
               </div>
             </li>
             <li class="name-team">
-              <img src="./images/4man.jpg" alt="second young guy" width="264" />
+              <picture>
+                <source
+                  media="(min-width: 1158px )"
+                  srcset="
+                    ./retina_man4/img_comp@1x.jpg 1x,
+                    ./retina_man4/img_comp@2x.jpg 2x
+                  " />
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./retina_man4/img_tab@1x.jpg 1x,
+                    ./retina_man4/img_tab@2x.jpg 2x
+                  " />
+                <source
+                  media="(max-width: 767px )"
+                  srcset="
+                    ./retina_man4/img_mob@1x.jpg 1x,
+                    ./retina_man4/img_mob@2x.jpg 2x
+                  " />
+                <img
+                  src="./retina_man4/img_comp@1x.jpg"
+                  alt="second young guy"
+                  width="264"
+              /></picture>
+
               <div class="information">
                 <h3 class="name-person">Daniel Wilson</h3>
                 <p class="position">UI Designer</p>
@@ -658,13 +751,15 @@
       </button>
 
       <ul class="mobile-menu-burger">
-        <li>
+        <li class="burger-item">
           <a href="./index.html" class="item-burger link">Studio</a>
         </li>
-        <li>
+        <li class="burger-item">
           <a href="./portfolio.html" class="item-burger link">Portfolio</a>
         </li>
-        <li><a href="" class="item-burger link">Contacts</a></li>
+        <li class="burger-item">
+          <a href="" class="item-burger current-burger link">Contacts</a>
+        </li>
       </ul>
       <address class="address-burger">
         <ul class="address-info-burger">
