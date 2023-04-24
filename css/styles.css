@@ -402,7 +402,6 @@ text-transform: capitalize;
    font-weight: 700;
    font-size: 36px;
    line-height: 1.1;
-   text-align: center;
    letter-spacing: 0.02em;
    color: #2E2F42; }
 
@@ -1062,10 +1061,14 @@ background-color: #FCFCFC;}
 
       @media only screen and ( max-width: 428px ){
         .modal{
-          min-width: 392px;
+          min-width: 320px;} }
 
-        }
-      }
+          @media only screen and ( max-width: 428px ){
+            .span-link{
+             line-height: 2.2;
+            }
+          }
+
 
 .label{display: block;
 margin-bottom: 4px;
@@ -1165,6 +1168,12 @@ cursor: pointer;}
                 border:#404BBF; }
 
 
+                @media only screen and ( max-width:428px ){
+                  .checkbox{
+                    margin-bottom: 15px;
+                    width: 20px; } }
+
+
 
                 /* menu-burger */
                 .menu-container {
@@ -1200,65 +1209,69 @@ cursor: pointer;}
                   padding:  24px 0 ;
                 }
 
-
-
-             
-
-                
-                .mobile-menu-burger {
+                 .mobile-menu-burger {
                   margin-bottom: auto;}
                 
-                .address-burger{
-                  margin-bottom: 48px;
-                }
+                 .address-burger{
+                  font-style: normal;
+                  margin-bottom: 48px;  }
 
                        .info-burger-tel{
-                        
-                     font-weight: 700;
-                     font-size: 36px;
-                     line-height: 40px;
-                     letter-spacing: 0.02em;
-                      color: #4D5AE5; }
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 1.1;
+                        letter-spacing: 0.02em;
+                        color: #4D5AE5; }
 
-                      .text-info-burger{
-                        margin-bottom: 40px;}
+                         .text-info-burger{
+                         margin-bottom: 40px;}
 
-                      .info-burger-mail{
+                         .info-burger-mail{
                         font-weight: 500;
                         font-size: 20px;
-                        line-height: 24px;
+                        line-height: 1.2;
                         letter-spacing: 0.02em;
                         color: #434455; }
               
 
                 
 
-                .mobile-menu-burger .link {
-                  display: block;
-                  text-decoration: none; }
+                   .mobile-menu-burger .link {
+                    display: block;
+                   text-decoration: none; }
 
-                  .burger-item{
+                   .burger-item{
                     margin-top: 40px;}
 
                   .item-burger{
-                  margin-bottom: 4opx;
+                  margin-bottom: 4px;
                   font-weight: 700;
                   font-size: 36px;
-                  line-height: 40px;
+                  line-height: 1.1;
                   letter-spacing: 0.02em;
                   text-transform: capitalize;
                   color: #2E2F42;
                 }   
                 
-                @media only screen and ( max-width:767px ){
-                  .footer-social{
-                    gap: 56px;
-                    justify-content: flex-start; } }
+                     @media only screen and ( max-width:728px ){
+                     .footer-social{
+                     gap: 56px;
+                     justify-content: flex-start; } }
 
-                    .current-burger{
+                     
+                     @media only screen and ( max-width:428px ){
+                      .footer-social{
+                       gap: 16px;
+                       justify-content: flex-start;
+                      }
+                     }
+
+                  
+
+
+                     .current-burger{
                       position: relative;
-                      color: #404BBF;
-                    }
+                      color: #404BBF;  }
                     
             
 
