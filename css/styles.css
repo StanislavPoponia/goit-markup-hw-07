@@ -238,7 +238,7 @@ stroke: #2E2F42;}
   padding: 112px 0;
   text-align: center;
   background: #2E2F42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../retina_background/Dark-bg_mob@1xx.png);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/retina_background/Dark-bg_mob@1xx.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -248,7 +248,7 @@ stroke: #2E2F42;}
   @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx){
-    .effective{ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../retina_background/Dark-bg_mob@2xx.png);
+    .effective{ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/retina_background/Dark-bg_mob@2xx.png);
      }
   }
 }
@@ -258,12 +258,12 @@ stroke: #2E2F42;}
 @media only screen and ( min-width: 429px ){
   .effective{
     background-image:
-    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../retina_background/Dark-bgtab@1xx.png); }
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/retina_background/Dark-bgtab@1xx.png); }
 
     @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx){
-      .effective{ background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../retina_background/Dark-bgtab@2xx.png);
+      .effective{ background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/retina_background/Dark-bgtab@2xx.png);
     }
   }
 }
@@ -271,12 +271,12 @@ stroke: #2E2F42;}
 
 @media only screen and ( min-width: 769px ){
   .effective{
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../retina_background/people-office1comp@1xx.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/retina_background/people-office1comp@1xx.png);
   }
   @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx){
-    .effective{ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../retina_background/people-office1comp@2xx.png);
+    .effective{ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/retina_background/people-office1comp@2xx.png);
     }
   }
 }
